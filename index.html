@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+
+        <title>TMHM_LANDINGPage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="DIVV">
+            <a href=""><img class=img_logo src="logo.png" alt="tmhm"></a>
+        </div>
+
+       <!--  <div class="DIVV2">
+            <a href=""><img class=img_logo src="logo.png" alt="tmhm"></a>
+        </div>-->
+
+        <div  >
+
+            <!--<a><img src="logo.png" alt="LOGO" id="logo_id"></a>-->
+            <h1 class="h13" id="header">TMHM Consulting Services Pvt. Ltd.</h1>
+            <h2 style="color:#7FB3D5;font-weight: bold ">Bringing Talent Into Limelight</h2>
+            <!--<a href="registration.html"><button class="button" style="vertical-align:middle" id="b1" ><span>Register</span></button></a>
+            <a href="login.html"><button class="button" style="vertical-align:middle" id="b2"><span>Login</span></button></a>-->
+        </div>
+
+      </br></br>
+        <div class="searchbar">
+            <form class="" action="https:/www.google.com" method="get">
+                <input type="text" class="searching"  placeholder="Type here to search" >
+                <input type="submit" class="answer" value="SEARCH" >
+            </form>
+        </div>
+
+        </br>
+        <a href="registration_page.html"><button class="button" style="vertical-align:middle" id="b1" ><span>Register</span></button></a>
+            <a href="login_user.html"><button class="button" style="vertical-align:middle" id="b2"><span>Login</span></button></a>
+            </br>
+
+        <div class="slideshow-container" id="slides12">
+
+            <div class="mySlides ">
+                <div class="numbertext"></div>
+                <img src="wwr1.png" style="width:25% " id="img1">
+                <div class="text1">
+                    <p  id="p1">We are a exclusive learning and guidance portal .we provide a platform  for newbie as well as to experienced user .we are a team that  will guide your way in many directions, like we haven’t  just restricted ourselves to live/recorded training sessions only ,we are much more than that. <a href="">know more</a></p>
+                    <p class="text">WHO ARE WE?</p></div>
+            </div>
+
+
+            <div class="mySlides ">
+                <div class="numbertext"></div>
+                <img src="wwd22.png" style="width:26%;" id="img2">
+                <div class="text1" >
+                    <p " id="p2">We give our guidance on online trainings, digital marketing, campus placements, and personality development; even we provide paid/unpaid internships as well .Users can connect to us based upon their preferences and interest. <a href="">know more</a></p>
+                    <p class="text" >WHAT WE DO?</p></div>
+            </div>
+
+            <div class="mySlides ">
+                <div class="numbertext"></div>
+                <img src="change.png" style="width:26% "  id="img3">
+                <div class="text1"><p  id="p3"> For live trainings we have online learning & development page, likewise for digital marketing and for personality development etc we have our separate digital marketing page and a YouTube channel which is JAAGO TALENT. We decorate our services using weekend workshops .<a href="">know more</a></p>
+                    <p class="text">HOW WE DO?</p></div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+        </br>
+
+        <h1 style="text-align:center;color:#006666">PRODUCTS & SERVICES</h1>
+        <!--<h2 style="text-align:center;color:#006666" >Online learning</h2>-->
+
+        <div>
+            <div class="card" id="left">
+                <div class="cardA" >
+                    <a href="https://deepakshi-jain.github.io/landingpage"><img src="onlearn.png" alt="WHY" style="width:200px " id="imgg"></a>
+                    <div>
+                        <p style="color: black;text-align:center">ONLINE LEARNING</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="left">
+                <div class="cardA" >
+                    <a href=https://www.linkedin.com/company/tmhmindia"><img src="wwr1.png" alt="WHY" style="width:220px" id="imggg"></a>
+                    <div>
+                        <p style="color: black;text-align:center">COR.TRAINING</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="left" >
+                <div class="cardA" >
+                    <a href="https://www.youtube.com/JaagoTalent">  <img src="web .png" alt="WHY" style="width:200px" id="imggg"></a>
+                    <div>
+                        <p style="color: black;text-align:center">WEB PRESENCE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </br> </br></br> </br>  </br> </br></br></br></br></br></br></br></br> </br></br></br></br> </br> </br>
+        <div id="background-image1">
+            <center>
+                <div id="content">
+                    <h1 id="h">BE THE CHANGE MAKER!!!</H1>
+
+                </div>
+            </center>
+        </div>
+
+        </br>
+        <div class="main">
+
+            <h1 id="h11" style="color:#2471A3">OUR TEAM</h1>
+
+             <div class="container" id="con">
+     <a  href="#"  data-toggle="modal" data-target="#myModal" ><img src="contactt.png" alt="CONTAcT US" class="img_contact"></a>
+       <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                        <H4>NOT REGISTERED YET</H4>
+                            <h6>Click here to Register</h6>
+                           <a href="registration_page.html"><button type="button" class="btn btn-primary">Register</button></button></a>
+
+                            <h4>ALREADY HAS A ACCOUNT </h4>
+                           <h6>Click here to login</h6>
+            <a href="login_user.html"><button type="button" class="btn btn-primary">Login</button></button></a>
+                                              </br>
+            <h3 style="text-align: center">Follow us on </h3>
+                    <div class="socialmedia_contact">
+                          <a href="https://www.instagram.com/tmhmindia"><img src="https://media-public.canva.com/MAB0QgPkCV4/1/thumbnail-1.png" class="sm_contact" alt="instagram"></a>
+                          <a href="https://www.youtube.com/JaagoTalent"><img src="https://media-public.canva.com/MABw6f2oNj8/1/thumbnail.png" class="sm_contact"alt="youtube"></a>
+                          <a href="https://www.facebook.com/tmhmindia"><img src="https://media-public.canva.com/MADmjImrsBs/1/thumbnail_large.png" class="sm_contact" alt="facebook"></a>
+                          <a href="https://www.linkedin.com/company/tmhmindia"><img src="https://media-public.canva.com/MADnBogvtPM/3/thumbnail_large.png "class="sm_contact" alt="linkedin"></a>
+                          <a href ="https://www.twitter.com/tmhmindia"><img src="https://media-public.canva.com/MADnBhrYwVU/3/thumbnail_large.png" class="sm_contact" alt="twitter"></a>
+                          <a href="https://www.tmhmindia.wordpress.com"><img src="https://media-public.canva.com/MADnBj1cOYw/3/thumbnail_large.png" class="sm_contact" alt="wordpress"></a>
+                          <a href="https://api.whatsapp.com/send?phone=918179992806"><img src="https://media-public.canva.com/MABr1siTu7g/1/thumbnail.png" class="sm_contact" alt="whatsapp"></a>
+              </div>
+            <hr class="hr_contact">
+                </div>
+            </div>
+         </div>
+      </div>
+ </div>
+
+            <hr>
+
+            <!--<h2>TEAM </h2>-->
+
+            <div class="card_ceo" >
+                <div class="cardA" >
+                    <a href="https://www.linkedin.com/company/tmhmindia"><img src="ceo.jpg" alt="WHY" style="width:200px " id="imgg"></a>
+                    <div  >
+                        <p style="color: black;text-align:center">CEO</p>
+                        <p style="color: gray;text-align:center">KAMAL PABBA</p>
+                    </div>
+                </div>
+            </div>
+
+      </br> </br></br>
+
+
+            <div id="myBtnContainer">
+
+                <button class="btn" onclick="filterSelection('web') ">Web developer</button>
+                <button class="btn" onclick="filterSelection('interns')">Interns</button>
+               <!-- <button class="btn" onclick="filterSelection('people')">HR</button>-->
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+           <div class="row">
+                <div class="column web">
+                    <a href=""><img src="d1.png" alt="Mountains" style="width:88%"></a>
+                    <!-- <p id="pp">Lorem ipsum dolor..</p>-->
+                    <h4 id="kajal" class="H44 k">KAJAL</h4>
+
+                </div>
+
+                <div class="column web">
+                    <div class="content1">
+                        <a href=""><img src="d2.png" alt="Lights" style="width:94%"></a>
+                        <!--  <p id="pp">Lorem ipsum dolor..</p>-->
+                        <a href="#"> <h4 class="H44 anshika">ANSHIKA</h4></a>
+
+                    </div>
+                </div>
+                <div class="column web">
+                    <div class="content1">
+                        <a href="#"><img src="d3.png" alt="Nature" style="width:75%"></a>
+                        <!--  <p id="pp">Lorem ipsum dolor..</p>-->
+                        <h4 class="H44 lakshya">LAKSHYA</h4>
+
+                    </div>
+                </div>
+
+
+
+                <div class="column interns">
+                    <div class="content1">
+                        <a href=""> <img src="intern1.png" alt="Car" style="width:70%"></a>
+                        <!--  <p id="pp">Lorem ipsum dolor..</p>-->
+                        <a href="#"><h4 class="H44 ritwika">RITWIKA</h4></a>
+                    </div>
+                </div>
+                <div class="column interns">
+                    <div class="content1">
+                        <a href="#">  <img src="intern2.png" alt="Car" style="width:50%"></a>
+                        <!--   <p id="pp">Lorem ipsum dolor..</p>-->
+                        <h4 class="H44 sanjana">SANJANA</h4>
+
+                    </div>
+                </div>
+                <div class="column interns">
+                    <div class="content1">
+                        <a href="#"><img src="intern1.png" alt="Car" style="width:70%"></a>
+                        <!--  <p id="pp">Lorem ipsum dolor..</p>-->
+                        <h4 class="H44 manali">MANALI</h4>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+            <!-- END MAIN -->
+           
+
+
+            <script>
+                filterSelection("all")
+                function filterSelection(c) {
+                    var x, i;
+                    x = document.getElementsByClassName("column");
+                    if (c == "all")
+                        c = "";
+                    for (i = 0; i < x.length; i++) {
+                        w3RemoveClass(x[i], "show");
+                        if (x[i].className.indexOf(c) > -1)
+                            w3AddClass(x[i], "show");
+                    }
+                }
+
+                function w3AddClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        if (arr1.indexOf(arr2[i]) == -1) {
+                            element.className += " " + arr2[i];
+                        }
+                    }
+                }
+
+                function w3RemoveClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        while (arr1.indexOf(arr2[i]) > -1) {
+                            arr1.splice(arr1.indexOf(arr2[i]), 1);
+                        }
+                    }
+                    element.className = arr1.join(" ");
+                }
+
+
+            // Add active class to the current button (highlight it)
+                var btnContainer = document.getElementById("myBtnContainer");
+                var btns = btnContainer.getElementsByClassName("btn");
+                for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function () {
+                        var current = document.getElementsByClassName("active");
+                        current[0].className = current[0].className.replace(" active", "");
+                        this.className += " active";
+                    });
+                }
+
+            </script>
+
+            <section id="footer">
+                <div class="container link" >
+                    <div class="row text-center text-xs-center text-sm-left text-md-left"  style="color: black">
+                        <div class="col-xs-12 col-sm-4 col-md-4 ">
+                            <h5 style="color: black;font-weight: bold">Courses</h5>
+                            <ul class="list-unstyled ">
+                                <li><a href="https://www.fiverr.com/share/qb8D02" ><i class="fa fa-angle-double-right"></i>Home</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h5 style="color: black;font-weight: bold">Company</h5>
+                            <ul class="list-unstyled ">
+                                <li ><a href="https://www.fiverr.com/share/qb8D02" ><i class="fa fa-angle-double-right"></i>Home</a></li>
+                                <li  ><a href="https://www.fiverr.com/share/qb8D02" ><i class="fa fa-angle-double-right"></i>About</a></li>
+                                <li ><a href="https://www.fiverr.com/share/qb8D02" ><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02" ><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02" ><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <h5 style="color: black;font-weight: bold">Community</h5>
+                            <ul class="list-unstyled ">
+                                <li><a href="https://www.fiverr.com/share/qb8D02" style="font-weight: bold"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                                <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                                <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="socialmedia">
+                        <a href="https://www.instagram.com/tmhmindia"><img src="https://media-public.canva.com/MAB0QgPkCV4/1/thumbnail-1.png" class="sm" alt="instagram"></a>
+                        <a href="https://www.youtube.com/JaagoTalent"><img src="https://media-public.canva.com/MABw6f2oNj8/1/thumbnail.png" class="sm" alt="youtube"></a>
+                        <a href="https://www.facebook.com/tmhmindia"><img src="https://media-public.canva.com/MADmjImrsBs/1/thumbnail_large.png" class="sm" alt="facebook"></a>
+                        <a href="https://www.linkedin.com/company/tmhmindia"><img src="https://media-public.canva.com/MADnBogvtPM/3/thumbnail_large.png" class="sm" alt="linkedin"></a>
+                        <a href="https://www.twitter.com/tmhmindia"><img src="https://media-public.canva.com/MADnBhrYwVU/3/thumbnail_large.png" class="sm" alt="twitter"></a>
+                        <a href="https://www.tmhmindia.wordpress.com"><img src="https://media-public.canva.com/MADnBj1cOYw/3/thumbnail_large.png" class="sm" alt="wordpress"></a>
+                        <a href="https://api.whatsapp.com/send?phone=918179992806"><img src="https://media-public.canva.com/MABr1siTu7g/1/thumbnail.png" class="sm" alt="whatsapp"></a>
+                    </div>
+               
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                            <p style="color: #2471A3;font-family: 'Roboto Condensed', sans-serif;"><u><a href="https://api.whatsapp.com/send?phone=918179992806" style="color:#2471A3;font-family: 'Roboto Condensed', sans-serif;">TMHM Consulting Services Pvt. Ltd.</a></u> is a Registered ABC/XYZ of abcdef, Inc. India [a wholly owned subsidiary of India XYZ, ABC, AB]</p>
+                            <p style="color:#2471A3;font-family: 'Roboto Condensed', sans-serif;">© All right Reversed.<a class="text-green ml-2" href="https://api.whatsapp.com/send?phone=918179992806" target="_blank" style="color:#2471A3">tmhm</a></p>
+                        </div>
+                        <hr>
+                    </div>
+
+</section>
+            <!-- ./Footer -->
+    </body>
+</html>
